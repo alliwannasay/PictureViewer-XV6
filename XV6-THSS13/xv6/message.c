@@ -162,7 +162,6 @@ void createMsg(int msg_type, int pos_x, int pos_y, char key)
 
         x = pos_x - win_ptr->window_position.left_x;//relative x
         y = pos_y - win_ptr->window_position.left_y;//relative y
-
         if(msg_type == MSG_LPRESS || msg_type == MSG_RPRESS || msg_type == MSG_DOUBLECLICK)
         {
             if (win_ptr->next_window != 0)
